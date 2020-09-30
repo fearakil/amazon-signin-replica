@@ -1,0 +1,64 @@
+.logo {
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+
+.card {
+    margin: auto;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    border-bottom-color: grey;
+}
+.inputs {
+    font-weight: 500;
+}
+.button {
+    border-color: grey;
+}
+/*strike thru*/
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    color: grey; 
+}
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 230px;
+    height: 1px;
+    background: grey;
+}
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+/*end strike thru*/
+.create {
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+    border-color: grey;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-size: small;
+    text-align: center;
+  }
